@@ -1,0 +1,32 @@
+.card{
+    color:rad;
+    text-align: center;
+}
+.body{
+    background-color: antiquewhite;
+}
+.h1 {
+    font-size: 5;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+    0% {
+        background: linear-gradient(#008000, #00FF00);
+        -webkit-background-clip: text;
+    }
+
+    100% {
+        background: linear-gradient(#3CE7D7, #000FFF);
+        -webkit-background-clip: text;
+    }
+}
+.label{
+    padding-left: 100px;
+}
+.label2{
+    padding-left: 39.2px;
+}
